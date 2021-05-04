@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 1.4rem;
+}
+
+body{
+    height: 100vh;
+    background-color: skyblue;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2,4rem;
+    margin-top: 30px;;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    /* outline: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: whitesmoke;
+    
+
+}
+
+.first, .middle, .third{
+    width: 10.5%;
+    background-color: grey;
+    border: 1px grey;
+    /* outline: 2px solid red; */
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    box-sizing: border-box;
+    /* box-shadow: inset 5px 5px 5px black;  */
+}
+.first div, .middle div, .third div {
+    background-color: rgb(104, 99, 99);
+    margin-top: 30px;
+    padding: 60px;
+    width: 60%;
+    border-radius: 30%;
+}
+
+.red{
+    background-color: rgb(255, 0, 0) !important;
+}
+
+.yellow{
+    background-color: yellow !important;
+    
+}
+
+.green{
+    background-color: rgb(0, 255, 0) !important;
+}
+
+
+
+.start{
+    width: 200px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1.2rem;
+    font-family: serif;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 45%;
+    
+}
